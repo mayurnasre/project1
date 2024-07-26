@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <iframe src="./sample-pdf-files-sample1.pdf" frameborder="0">pdf</iframe>
+    <iframe src="./file_example_MP3_2MG.mp3" frameborder="0">audio</iframe>
+    <iframe src="./html5.html" frameborder="0"></iframe>
+
+    <h2>List task using dl dt and dd tags </h2>
+    <dl>
+        <dt>
+            HR
+        </dt>
+        <dd>hiring Employee</dd>
+        <dt>
+            developer
+        </dt>
+        <dd>implementing project</dd>
+    </dl>
+
+    <br>
+    <h2>
+        implementing pre tags
+    </h2>
+    <pre>
+        hello guys im implementing pre tag but dont know what 
+        to write here , so
+        concentrate on your work dont waste time 
+        here by reading this masterpiece thank you ,,..
+    </pre> 
+
+    <br>
+    <h2>implementing q (quatation tags)</h2>
+    <p>
+
+        <q>namskar bharat</q>
+        aaplka tahe dil se swagat hai hamare show me
+
+    </p>
+    <br>
+    <h2>implementing time tags</h2>
+    <p>time for work is <time>10</time>to <time>7</time></p>
+
+    <br>
+
+
+    <header>
+        <p>heading implementation shuru</p>
+        <h1>heading by h1</h1>
+        <h2>heading by h2</h2>
+    </header>
+    <br>
+
+    <h1>implementing footer section</h1>
+    <footer>
+        <p>this is footer section for any good content</p>
+    </footer>
+    <br>
+
+    <h2>dropdown demo with optgroup </h2>
+<label for="dept">choose Department</label>
+<select name="hr" id="hr">
+<optgroup label="Department">
+<option value="hr">HR</option>
+<option value="manager">Manager</option>
+<option value="clerk">Clerk</option>
+</optgroup>
+
+</select>
+
+<br>
+<div>
+    <p>audio here</p>
+<audio controls>
+    <source src="./file_example_MP3_2MG.mp2" type="audio/mp3">
+    <br>
+    <source src="./file_example_MP3_2MG.mp3" type="audio/mp3"> 
+</audio>
+
+<video autoplay loop controls height="200" width="300" >
+    <source src="./neonarrow.mp4">
+</video>
+</div>
+<iframe src="./sample-pdf-files-sample1.pdf" frameborder="0">pdf</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vz1RlUyrc3w?si=SbNQ4j_VhAMCnVxZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vz1RlUyrc3w?si=Iaz0McmjpHuD_mQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></body>
+
+<div>
+
+    <label for="myname">Enter your name  </label>
+    <input type="text" id="myname" name="name">
+    <button type="button" onclick="convert()">convert</button>
+    <p>
+        uppercse name is : <span id="res"></span>
+    </p>
+</div>
+<script>
+    function convert()
+{
+    const upstr=document.getElementById("myname").value.toUpperCase();
+    document.getElementById("res").textContent=upstr;
+}
+</script>
+
+<div>
+
+    <label for="myname">Enter your name  </label>
+    <input type="text" id="myname" name="name">
+    <button type="button" onclick="res.value = myname.value.toUpperCase()">convert</button>
+    <p>
+        uppercse name is : <span><output id="res"></output></span>
+    </p>
+</div>
+
+<label for="myName">Enter Name</label>
+<input type="text" id="myName"/>
+<button type="button" onclick = "result.value = myName.value.toUpperCase()">COnvert</button>
+<p>
+    Uppercase:<span>
+        <output id="result"></output>
+    </span>
+</p>
+
+
+<p></p>
+<p></p>
+<br><br>
+
+<div>
+
+    <label for="myname">Enter your name  </label>
+    <input type="text" id="myname" name="name">
+    <button type="button" onclick="res.textContent = myname.value.toLowerCase()">convert</button>
+    <p>
+        LOWERCASE name is : <span><output id="res"></output></span>
+    </p>
+</div>
+
+</html>
